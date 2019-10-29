@@ -1,9 +1,8 @@
 # File-Organizer
 Organizing file for Desktop, Documents and Downloads folder
 
-For windows only
-
 Features:
+- Compatible for windows
 - Choose between Desktop, Downloads or Documents folder
 - Make new folder according to file extension
 - Organizing file according to its extension
