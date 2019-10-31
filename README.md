@@ -2,7 +2,7 @@
 Organizing file for Desktop, Documents and Downloads folder
 
 Features:
-- Compatible for windows
+- Compatible for windows only
 - Choose between Desktop, Downloads or Documents folder
 - Make new folder according to file extension
 - Organizing file according to its extension
