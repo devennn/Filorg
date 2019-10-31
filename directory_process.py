@@ -14,26 +14,37 @@ def process_file(dirToAccess, allFile):
             except FileExistsError:
                 pass
             newFilePath = os.path.join(newFilePath, file)
-            print(dir + ":::" + newFilePath)
             os.rename(dir, newFilePath)
 
 
 # Access directory
 def access_dir(input, userName):
     # r is to produce a raw string
-    print(userName)
-    base = os.path.join("/mnt/c/Users/", userName)
-    print(base)
+    #base = os.path.join("/mnt/c/Users/", userName)
+    base = os.path.join(r"C:/Users/", userName)
     options = [
         r"/Desktop/",
         r"/Documents/",
         r"/Downloads/"
     ]
     dirToAccess = base + options[input]
-    print(dirToAccess)
     try:
         allFile = os.listdir(dirToAccess)
     except FileNotFoundError:
-        print("File Not found")
-        exit(1)
+        return 1
     process_file(dirToAccess, allFile)
+    return 0
+
+
+# Entry get input from gui
+def get_gui_input(arg):
+    for value in arg:
+        try:
+            buf = int(value)
+            err = access_dir(buf, arg[0])
+            if(err != 0):
+                return 1
+        except ValueError:
+            continue
+
+    return 0
