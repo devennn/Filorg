@@ -9,6 +9,7 @@ Features:
 eg: my.pdf will be put inside pdf_file
 
 How to Use:
-1. run python3 organizeFile.py
-2. Choose folder to Organize
-3. Enter username
+1. Download File Organizer.exe
+3. Run File Organizer.exe
+2. Enter username
+3. Choose folder to Organize
