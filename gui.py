@@ -1,44 +1,26 @@
 import PySimpleGUI as sg
-import directory_process as dp
+import sys
+from directory_process import *
 
-layout = [
-    [sg.Text('eg: Directory: c/Users/mypc | Username: mypc')],
-    [sg.Text('Enter Username:')],
-    [sg.Input(key='-IN-')],
-    [sg.Text('Choose Folder to organize:')],
-    [sg.Checkbox('Desktop', size=(10,1)),
-        sg.Checkbox('Documents', size=(10,1)),
-        sg.Checkbox('Downloads', size=(10,1))],
-    [sg.Button('Start organize'), sg.Button('Exit'),
-        sg.Text('', size=(15,1), key='-OUTPUT-')],
-]
+def run_gui():
+    if len(sys.argv) == 1:
+        folder_path = sg.PopupGetFolder('Select Folder to Open')
+    else:
+        folder_path = sys.argv[1]
 
-window = sg.Window('File Organizer', layout)
-arg = [
-    "Empty",
-    "Empty",
-    "Empty",
-    "Empty",
-]
+    if not folder_path:
+        sg.popup("Cancel", "No Folder supplied")
+        raise SystemExit("Cancelling: no Folder supplied")
+    else:
+        sg.popup('Folder Path: \n', folder_path)
 
-while True:  # Event Loop
-    event, values = window.Read()
-    if event is None or event == 'Exit':
-        break
-    if event == 'Start organize':
-        # Get input
-        arg[0] = values['-IN-']
-        for i in values:
-            if(values[i] == True):
-                arg[i+1] = i
-        # Run Engine Here
-        status = dp.get_gui_input(arg)
-        # Engine return value
-        if(status == 0):
-            window['-OUTPUT-'].Update("Done...")
-        else:
-            window['-OUTPUT-'].Update("Process Error...")
-        # Clear arg
-        for i in range(4):
-            arg[i] = "Empty"
-window.Close()
+    return folder_path
+
+def main():
+    folder_path = run_gui()
+    err = access_dir(folder_path)
+    if(err != 0):
+        sg.popup("Process error")
+
+if __name__ == '__main__':
+    main()

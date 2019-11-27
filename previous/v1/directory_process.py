@@ -18,10 +18,33 @@ def process_file(dirToAccess, allFile):
 
 
 # Access directory
-def access_dir(folder_path):
+def access_dir(input, userName):
+    # r is to produce a raw string
+    #base = os.path.join("/mnt/c/Users/", userName)
+    base = os.path.join(r"C:/Users/", userName)
+    options = [
+        r"/Desktop/",
+        r"/Documents/",
+        r"/Downloads/"
+    ]
+    dirToAccess = base + options[input]
     try:
-        allFile = os.listdir(folder_path)
+        allFile = os.listdir(dirToAccess)
     except FileNotFoundError:
         return 1
-    process_file(folder_path, allFile)
+    process_file(dirToAccess, allFile)
+    return 0
+
+
+# Entry get input from gui
+def get_gui_input(arg):
+    for value in arg:
+        try:
+            buf = int(value)
+            err = access_dir(buf, arg[0])
+            if(err != 0):
+                return 1
+        except ValueError:
+            continue
+
     return 0
