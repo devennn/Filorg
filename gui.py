@@ -16,11 +16,26 @@ def run_gui():
 
     return folder_path
 
+def choose_process():
+
+    layout = [
+        [sg.Text('What to do with them:')],
+        [sg.Checkbox('Rearrange'), sg.Checkbox('Rename')],
+        [sg.OK()]
+    ]
+    windows = sg.Window('Choose Process').Layout(layout)
+    button, values = windows.Read()
+    chosen = [i for i in range(len(values)) if values[i] == True]
+    return chosen[0]
+
 def main():
     folder_path = run_gui()
-    err = access_dir(folder_path)
+    chosen = choose_process()
+    err = access_dir(folder_path, chosen)
     if(err != 0):
         sg.popup("Process error")
+    else:
+        sg.popup("Done All!")
 
 if __name__ == '__main__':
     main()
