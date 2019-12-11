@@ -1,7 +1,7 @@
-# File-Organizer
+# File Organizer
 Organizing file for Desktop, Documents and Downloads folder
 
-## Project Info:
+## Project Info
 - Compatible for windows only
 - Make new folder according to file extension
 - Organizing file according to its extension
