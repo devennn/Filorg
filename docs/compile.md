@@ -1,5 +1,5 @@
 # Compilation
-    - This software is compiled using PyInstaller
+- This software is compiled using PyInstaller
 
 ## Install Pyinstaller
 
