@@ -3,12 +3,8 @@
 
 ## Install Pyinstaller
 
-"""
-pip install PyInstaller
-"""
+> pip install PyInstaller
 
 ## Compilation
 
-"""
-pyinstaller.exe --onefile --windowed --icon=src\icon.ico src\gui.py -n File-Organizer
-"""
+> pyinstaller.exe --onefile --windowed --icon=src\icon.ico src\gui.py -n File-Organizer
