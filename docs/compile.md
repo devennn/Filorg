@@ -1,9 +1,9 @@
 # Compilation
-- This software is compiled using PyInstaller
+- This software is compiled using [PyInstaller](https://www.pyinstaller.org/)
 
 ## Install Pyinstaller
 
-> pip install PyInstaller
+> pip install pyinstaller
 
 ## Compilation
 
