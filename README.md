@@ -5,8 +5,8 @@ Tool to organize file for Windows 10
  1) Download this folder to local machine
  2) Run File-Organizer.exe from dist/ folder
  3) Choose options
- - Organize Files
- - Rename files
+   - Organize Files
+   - Rename files
 
 ## Project Info
 - Compatible for windows only
