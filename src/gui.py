@@ -20,11 +20,10 @@ def run_gui():
 
     window = sg.Window(
         'File Organizer', layout, default_element_size=(40, 1),
-        grab_anywhere=False, icon='../old/icon.ico'
+        grab_anywhere=False, icon='icon.ico'
     )
     event, values = window.read()
     chosen = check_options_chosen(values)
-    print(chosen)
     if(chosen == -1):
         return values, chosen
     return values, chosen

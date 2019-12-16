@@ -7,4 +7,4 @@
 
 ## Compilation
 
-> pyinstaller.exe --onefile --windowed --icon=src\icon.ico src\gui.py -n File-Organizer
+> pyinstaller.exe --onefile --windowed --icon=icon.ico gui.py -n File-Organizer
