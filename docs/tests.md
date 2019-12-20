@@ -4,6 +4,11 @@
 ## How to run
 Test should be run from File-Organizer directory
 
+### Executable script
+> run in main dir : File-Organizer/
+> sh run_test.sh
+
+### Command Line
 ### Run all test
 > python -B -m unittest test.test_dp -v
 

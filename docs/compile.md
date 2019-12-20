@@ -7,4 +7,8 @@
 
 ## Compilation
 
+### Run execuitble file
+> sh compile.sh
+
+### Command line
 > pyinstaller.exe --onefile --windowed --icon=icon.ico gui.py -n File-Organizer
