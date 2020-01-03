@@ -11,7 +11,7 @@ COMMENT1
 # if no arguments, run all, else run only arguments
 if [ "$#" -eq  "0" ]
     then
-        python -B -m unittest test.test_dp -v
+        python -B -m unittest test.test_dp -v ||  python3 -B -m unittest test.test_dp -v
 else
     for arg in "$@"
     do
