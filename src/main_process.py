@@ -1,4 +1,7 @@
 import os
+from logs.set_logger import set_logger
+
+logger = set_logger(level='Info')
 
 class Arrange:
 
@@ -9,6 +12,7 @@ class Arrange:
 
     # Create folder based on file extension and move all file into folder
     def process_file(self):
+        logger.info('=== Start process_file ===')
         for file in self.allFile:
             dir = os.path.join(self.dirToAccess, file)
             filename, file_extension = os.path.splitext(dir)
@@ -32,6 +36,7 @@ class Rename:
 
     # Renaming files
     def rename_files(self, newName):
+        logger.info('=== Start rename_files ===')
         _i = 1;
         dir = self.dirToAccess + "/"
         err = self._check_requirements(path=dir)
