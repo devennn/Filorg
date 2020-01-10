@@ -1,9 +1,14 @@
 import logging
+import os
+from pathlib import Path
 
 def create_log_file(format):
+    path = Path('.').parent.absolute()
+    path = os.path.join(path, 'logs\logfile.log')
+
     # define file handler and set formatter
     formatter = logging.Formatter(format)
-    file_handler = logging.FileHandler('logfile.log')
+    file_handler = logging.FileHandler(path)
     file_handler.setFormatter(formatter)
 
     return file_handler
@@ -11,7 +16,7 @@ def create_log_file(format):
 def set_logger(level='Warnings'):
     FORMAT = '%(asctime)s : %(levelname)s : %(name)s : %(message)s'
     logging.basicConfig(format=FORMAT)
-    
+
     # Gets or creates a logger
     logger = logging.getLogger(__name__)
 

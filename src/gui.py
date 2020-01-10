@@ -1,6 +1,8 @@
 import PySimpleGUI as sg
 import sys
-from directory_process import *
+from process import *
+from pathlib import Path
+import os
 
 def run_gui():
     sg.ChangeLookAndFeel('Reddit')
@@ -17,10 +19,11 @@ def run_gui():
         [sg.InputText('Choose A Folder', key='_folder_'), sg.FolderBrowse()],
         [sg.Submit(tooltip='Click to submit this window'), sg.Cancel()]
     ]
-
+    path = Path('.').parent.absolute()
+    path = os.path.join(path, 'dist/icon.ico')
     window = sg.Window(
         'File Organizer', layout, default_element_size=(40, 1),
-        grab_anywhere=False, icon='icon.ico'
+        grab_anywhere=False, icon=path
     )
     event, values = window.read()
     chosen = check_options_chosen(values)
