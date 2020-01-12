@@ -20,3 +20,7 @@
 2020-01-10 15:21:11,906 : INFO : logs.set_logger : === Start access_dir ===
 2020-01-10 15:21:11,906 : INFO : logs.set_logger : === Start process_file ===
 2020-01-10 15:21:11,906 : INFO : logs.set_logger : === Start process_file ===
+2020-01-12 16:08:20,445 : INFO : logs.set_logger : === Start check_rename_newname ===
+2020-01-12 16:08:20,445 : INFO : logs.set_logger : === Start check_rename_newname ===
+2020-01-12 16:08:20,446 : INFO : logs.set_logger : === Start check_rename_newname ===
+2020-01-12 16:08:20,446 : INFO : logs.set_logger : === Start check_rename_newname ===
