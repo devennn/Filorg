@@ -1,7 +1,7 @@
 import os
 import re
 
-from .main_process import *
+from .features import *
 from logs.set_logger import set_logger
 
 logger = set_logger(level='Info')

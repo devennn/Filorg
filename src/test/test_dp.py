@@ -2,7 +2,7 @@ import unittest
 
 import sys
 sys.path.append("..")
-from src.process.directory_process import check_rename_newname
+from src.process.directory import check_rename_newname
 
 class Check_Filename(unittest.TestCase):
     def test_check_rename_newname_1(self):
