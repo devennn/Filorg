@@ -20,7 +20,7 @@ def run_gui():
         [sg.Submit(tooltip='Click to submit this window'), sg.Cancel()]
     ]
     path = Path('.').parent.absolute()
-    path = os.path.join(path, 'dist/icon.ico')
+    path = os.path.join(path, 'dist', 'icon.ico')
     window = sg.Window(
         'File Organizer', layout, default_element_size=(40, 1),
         grab_anywhere=False, icon=path

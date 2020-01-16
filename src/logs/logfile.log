@@ -1,26 +1,30 @@
-2020-01-10 15:07:39,104 : INFO : logs.set_logger : === Start access_dir ===
-2020-01-10 15:07:39,104 : INFO : logs.set_logger : === Start access_dir ===
-2020-01-10 15:07:39,106 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:07:39,106 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:07:39,107 : INFO : logs.set_logger : === Start rename_files ===
-2020-01-10 15:07:39,107 : INFO : logs.set_logger : === Start rename_files ===
-2020-01-10 15:12:05,634 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:12:05,634 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:12:05,635 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:12:05,635 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:14:18,858 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:14:18,858 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:14:18,859 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:14:18,859 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:15:23,410 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:15:23,410 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:15:23,412 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:15:23,412 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-10 15:21:11,906 : INFO : logs.set_logger : === Start access_dir ===
-2020-01-10 15:21:11,906 : INFO : logs.set_logger : === Start access_dir ===
-2020-01-10 15:21:11,906 : INFO : logs.set_logger : === Start process_file ===
-2020-01-10 15:21:11,906 : INFO : logs.set_logger : === Start process_file ===
-2020-01-12 16:08:20,445 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-12 16:08:20,445 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-12 16:08:20,446 : INFO : logs.set_logger : === Start check_rename_newname ===
-2020-01-12 16:08:20,446 : INFO : logs.set_logger : === Start check_rename_newname ===
+2020-01-15 17:38:45,126 : INFO : logs.set_logger : === Start access_dir ===
+2020-01-15 17:38:45,126 : INFO : logs.set_logger : === Start access_dir ===
+2020-01-15 17:38:45,127 : INFO : logs.set_logger : === Start check_rename_newname ===
+2020-01-15 17:38:45,127 : INFO : logs.set_logger : === Start check_rename_newname ===
+2020-01-15 17:38:45,130 : INFO : logs.set_logger : === Initializing class: Rename ===
+2020-01-15 17:38:45,130 : INFO : logs.set_logger : === Initializing class: Rename ===
+2020-01-15 17:38:45,130 : INFO : logs.set_logger : === Start rename_files ===
+2020-01-15 17:38:45,130 : INFO : logs.set_logger : === Start rename_files ===
+2020-01-15 17:38:45,134 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_1.mp4 -> C:/Users/myins/Downloads/File_mp4/t_1.mp4
+2020-01-15 17:38:45,134 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_1.mp4 -> C:/Users/myins/Downloads/File_mp4/t_1.mp4
+2020-01-15 17:38:45,140 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_10.mp4 -> C:/Users/myins/Downloads/File_mp4/t_2.mp4
+2020-01-15 17:38:45,140 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_10.mp4 -> C:/Users/myins/Downloads/File_mp4/t_2.mp4
+2020-01-15 17:38:45,143 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_11.mp4 -> C:/Users/myins/Downloads/File_mp4/t_3.mp4
+2020-01-15 17:38:45,143 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_11.mp4 -> C:/Users/myins/Downloads/File_mp4/t_3.mp4
+2020-01-15 17:38:45,145 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_2.mp4 -> C:/Users/myins/Downloads/File_mp4/t_4.mp4
+2020-01-15 17:38:45,145 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_2.mp4 -> C:/Users/myins/Downloads/File_mp4/t_4.mp4
+2020-01-15 17:38:45,148 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_3.mp4 -> C:/Users/myins/Downloads/File_mp4/t_5.mp4
+2020-01-15 17:38:45,148 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_3.mp4 -> C:/Users/myins/Downloads/File_mp4/t_5.mp4
+2020-01-15 17:38:45,151 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_4.mp4 -> C:/Users/myins/Downloads/File_mp4/t_6.mp4
+2020-01-15 17:38:45,151 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_4.mp4 -> C:/Users/myins/Downloads/File_mp4/t_6.mp4
+2020-01-15 17:38:45,153 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_5.mp4 -> C:/Users/myins/Downloads/File_mp4/t_7.mp4
+2020-01-15 17:38:45,153 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_5.mp4 -> C:/Users/myins/Downloads/File_mp4/t_7.mp4
+2020-01-15 17:38:45,156 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_6.mp4 -> C:/Users/myins/Downloads/File_mp4/t_8.mp4
+2020-01-15 17:38:45,156 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_6.mp4 -> C:/Users/myins/Downloads/File_mp4/t_8.mp4
+2020-01-15 17:38:45,159 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_7.mp4 -> C:/Users/myins/Downloads/File_mp4/t_9.mp4
+2020-01-15 17:38:45,159 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_7.mp4 -> C:/Users/myins/Downloads/File_mp4/t_9.mp4
+2020-01-15 17:38:45,164 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_8.mp4 -> C:/Users/myins/Downloads/File_mp4/t_10.mp4
+2020-01-15 17:38:45,164 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_8.mp4 -> C:/Users/myins/Downloads/File_mp4/t_10.mp4
+2020-01-15 17:38:45,169 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_9.mp4 -> C:/Users/myins/Downloads/File_mp4/t_11.mp4
+2020-01-15 17:38:45,169 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_9.mp4 -> C:/Users/myins/Downloads/File_mp4/t_11.mp4
