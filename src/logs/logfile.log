@@ -28,3 +28,39 @@
 2020-01-15 17:38:45,164 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_8.mp4 -> C:/Users/myins/Downloads/File_mp4/t_10.mp4
 2020-01-15 17:38:45,169 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_9.mp4 -> C:/Users/myins/Downloads/File_mp4/t_11.mp4
 2020-01-15 17:38:45,169 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Downloads/File_mp4/test_9.mp4 -> C:/Users/myins/Downloads/File_mp4/t_11.mp4
+2020-02-23 19:59:03,223 : INFO : logs.set_logger : === Start access_dir ===
+2020-02-23 19:59:03,223 : INFO : logs.set_logger : === Start access_dir ===
+2020-02-23 19:59:03,226 : INFO : logs.set_logger : === Initializing class: Arrange ===
+2020-02-23 19:59:03,226 : INFO : logs.set_logger : === Initializing class: Arrange ===
+2020-02-23 19:59:03,226 : INFO : logs.set_logger : === Start process_file ===
+2020-02-23 19:59:03,226 : INFO : logs.set_logger : === Start process_file ===
+2020-02-23 20:01:08,631 : INFO : logs.set_logger : === Start access_dir ===
+2020-02-23 20:01:08,631 : INFO : logs.set_logger : === Start access_dir ===
+2020-02-23 20:01:08,632 : INFO : logs.set_logger : === Start check_rename_newname ===
+2020-02-23 20:01:08,632 : INFO : logs.set_logger : === Start check_rename_newname ===
+2020-02-23 20:01:08,633 : INFO : logs.set_logger : === Initializing class: Rename ===
+2020-02-23 20:01:08,633 : INFO : logs.set_logger : === Initializing class: Rename ===
+2020-02-23 20:01:08,633 : INFO : logs.set_logger : === Start rename_files ===
+2020-02-23 20:01:08,633 : INFO : logs.set_logger : === Start rename_files ===
+2020-02-23 20:01:08,635 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_1.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_1.mp4
+2020-02-23 20:01:08,635 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_1.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_1.mp4
+2020-02-23 20:01:08,637 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_10.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_2.mp4
+2020-02-23 20:01:08,637 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_10.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_2.mp4
+2020-02-23 20:01:08,638 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_11.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_3.mp4
+2020-02-23 20:01:08,638 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_11.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_3.mp4
+2020-02-23 20:01:08,640 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_2.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_4.mp4
+2020-02-23 20:01:08,640 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_2.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_4.mp4
+2020-02-23 20:01:08,642 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_3.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_5.mp4
+2020-02-23 20:01:08,642 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_3.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_5.mp4
+2020-02-23 20:01:08,644 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_4.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_6.mp4
+2020-02-23 20:01:08,644 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_4.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_6.mp4
+2020-02-23 20:01:08,646 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_5.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_7.mp4
+2020-02-23 20:01:08,646 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_5.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_7.mp4
+2020-02-23 20:01:08,648 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_6.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_8.mp4
+2020-02-23 20:01:08,648 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_6.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_8.mp4
+2020-02-23 20:01:08,649 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_7.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_9.mp4
+2020-02-23 20:01:08,649 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_7.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_9.mp4
+2020-02-23 20:01:08,651 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_8.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_10.mp4
+2020-02-23 20:01:08,651 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_8.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_10.mp4
+2020-02-23 20:01:08,652 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_9.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_11.mp4
+2020-02-23 20:01:08,652 : INFO : logs.set_logger : === os.rename: C:/Users/myins/Desktop/Programming/Filorg/test_folder/t_9.mp4 -> C:/Users/myins/Desktop/Programming/Filorg/test_folder/fname_11.mp4

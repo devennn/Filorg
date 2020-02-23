@@ -5,11 +5,10 @@ logger = set_logger(level='Info')
 
 class Arrange:
 
-    def __init__(self, allFile=[], dirToAccess="", ext=""):
+    def __init__(self, allFile=[], dirToAccess=""):
         logger.info('=== Initializing class: Arrange ===')
         self.allFile = allFile
         self.dirToAccess = dirToAccess
-        self.ext = ext
 
     # Create folder based on file extension and move all file into folder
     def process_file(self):
@@ -30,11 +29,10 @@ class Arrange:
 
 class Rename:
 
-    def __init__(self, allFile=[], dirToAccess="", ext=""):
+    def __init__(self, allFile=[], dirToAccess=""):
         logger.info('=== Initializing class: Rename ===')
         self.allFile = allFile
         self.dirToAccess = dirToAccess
-        self.ext = ext
 
     # Renaming files
     def rename_files(self, newName):
@@ -52,6 +50,7 @@ class Rename:
             logger.info('=== os.rename: {} -> {}'.format(file, _newName))
             _i += 1
 
+    # Check if file exists
     def _check_requirements(self, path):
         if(os.path.exists(path) == True):
             return
