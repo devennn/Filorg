@@ -18,14 +18,14 @@ class Arrange:
             filename, file_extension = os.path.splitext(dir)
             if(file_extension != ""):
                 file_extension = file_extension.strip('.')
-                _newFileName = ("%s_file" %file_extension)
-                _newFilePath = os.path.join(self.dirToAccess, _newFileName)
+                new_fname = ("%s_file" %file_extension)
+                new_fpath = os.path.join(self.dirToAccess, new_fname)
                 try:
-                    os.mkdir(_newFilePath)
+                    os.mkdir(new_fpath)
                 except FileExistsError:
                     pass
-                _newFilePath = os.path.join(_newFilePath, file)
-                os.rename(dir, _newFilePath)
+                new_fpath = os.path.join(new_fpath, file)
+                os.rename(dir, new_fpath)
 
 class Rename:
 
@@ -35,24 +35,14 @@ class Rename:
         self.dirToAccess = dirToAccess
 
     # Renaming files
-    def rename_files(self, newName):
+    def rename_files(self, new_name):
         logger.info('=== Start rename_files ===')
-        _i = 1;
+        i = 1;
         dir = self.dirToAccess + "/"
-        err = self._check_requirements(path=dir)
-        if(err == -1):
-            return -1
         for file in self.allFile:
             filename, file_extension = os.path.splitext(file)
-            file = dir + file
-            _newName = dir + str('{}_{}'.format(newName, _i)) + file_extension
-            os.rename(file, _newName)
-            logger.info('=== os.rename: {} -> {}'.format(file, _newName))
-            _i += 1
-
-    # Check if file exists
-    def _check_requirements(self, path):
-        if(os.path.exists(path) == True):
-            return
-        else:
-            return -1
+            file = os.path.join(dir, file)
+            new_path = dir + str('{}_{}'.format(new_name, i)) + file_extension
+            os.rename(file, new_path)
+            logger.info('=== os.rename: {} -> {}'.format(file, new_path))
+            i += 1

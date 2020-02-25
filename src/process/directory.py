@@ -10,7 +10,7 @@ logger = set_logger(level='Info')
 def access_dir(values, process):
     logger.info('=== Start access_dir ===')
     folder_path = values['_folder_']
-    newName = values['_newName_']
+    new_name = values['_newName_']
     try:
         allFile = os.listdir(folder_path)
     except FileNotFoundError:
@@ -20,10 +20,10 @@ def access_dir(values, process):
         pr = Arrange(allFile=allFile, dirToAccess=folder_path)
         pr.process_file()
     elif(process == 1):
-        err = check_rename_newname(str=newName)
+        err = check_rename_newname(str=new_name)
         if(err == 0):
             pr = Rename(allFile=allFile, dirToAccess=folder_path)
-            pr.rename_files(newName=newName)
+            pr.rename_files(new_name=new_name)
         else :
             return -1
     return 0
