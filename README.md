@@ -1,7 +1,7 @@
 # Filorg
 GUI based application to organize file
 
-![file-Organizer](/Filorg.png)
+![file-Organizer](https://raw.githubusercontent.com/devennn/Filorg/master/Filorg.PNG)
 
 ## Build With
 - [PySimpleGUI](https://pysimplegui.readthedocs.io/en/latest/) - For GUI
