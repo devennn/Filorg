@@ -1,6 +1,8 @@
 # Filorg
 GUI based application to organize file
 
+![file-Organizer](/Filorg.png)
+
 ## Build With
 - [PySimpleGUI](https://pysimplegui.readthedocs.io/en/latest/) - For GUI
 - [PyInstaller](https://www.pyinstaller.org/) - Compiling python file to executable
